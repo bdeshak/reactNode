@@ -1,8 +1,7 @@
 
 const express = require('express')
 const path = require("path");
-const app = express()
-console.log(process.env.REACT_APP_API_URL);
+const app = express();
 // #############################################################################
 // This configures static hosting for files in /public that have the extensions
 // listed in the array.
@@ -10,7 +9,7 @@ var options = {
   dotfiles: 'ignore',
   etag: false,
   extensions: ['htm', 'html','css','js','ico','jpg','jpeg','png','svg'],
-  index: ['index.html'],
+  index: ['src/index.js'],
   maxAge: '1m',
   redirect: false
 }
