@@ -1,4 +1,4 @@
-import HttpService from "./htttp.service.js";
+import HttpService from "./htttp.service";
 
 class AuthService {
   // authEndpoint = process.env.API_URL;
