@@ -9,7 +9,7 @@ var options = {
   dotfiles: 'ignore',
   etag: false,
   extensions: ['htm', 'html','css','js','ico','jpg','jpeg','png','svg'],
-  index: ['src/index.js'],
+  index: ['index.html'],
   maxAge: '1m',
   redirect: false
 }
