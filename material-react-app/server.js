@@ -2,7 +2,7 @@
 const express = require('express')
 const path = require("path");
 const app = express()
-console.log(process.env.API_URL);
+console.log(process.env.REACT_APP_API_URL);
 // #############################################################################
 // This configures static hosting for files in /public that have the extensions
 // listed in the array.
